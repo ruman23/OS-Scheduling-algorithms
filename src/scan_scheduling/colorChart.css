@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27-Aug-2016, 21:04:58
+    Author     : MD Abul Kashem
+*/
+
+.chart-content {
+    -fx-padding: 20px;    
+}
+ 
+.chart-title {
+  -fx-text-fill: #4682b4;
+  -fx-font-size: 1.8em;
+}
+ 
+.axis-label {
+  -fx-text-fill: #4682b4;
+}
+ 
+.chart-legend-item-symbol{
+   -fx-background-radius: 0;
+}
+ 
+.chart-plot-background {
+    -fx-background-color: #68a49b;
+}
+.chart-alternative-row-fill {
+    -fx-fill: #938b47;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}
+.chart-series-line {    
+    -fx-stroke-width: 5px;
+    -fx-effect: null;
+}

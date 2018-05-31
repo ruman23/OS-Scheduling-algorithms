@@ -1,0 +1,34 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-Nov-2016, 22:56:08
+    Author     : MD Abul Kashem
+*/
+
+.combo-box
+ {
+    -fx-text-fill: red;
+     -fx-min-width: 128;
+    -fx-min-height: 35;
+ }
+.combo-box-popup .list-view
+ {
+   -fx-background-color: -fx-box-border, -fx-control-inner-background;
+   -fx-background-insets: 0, 1;
+   -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0 );
+ }
+.combo-box-popup .list-view .list-cell
+ {
+    -fx-background-color: #ececec;
+    -fx-text-fill: #9a9a9a;
+    -fx-font-family: Oxygen Light;
+ }
+ .combo-box .cell:selected {
+    -fx-text-fill: black;
+}
+.combo-box-popup .list-view .list-cell:hover {
+    -fx-text-fill: black;
+}
